@@ -82,9 +82,60 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Assets\Menu_to_Merge\Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>Assets\Menu_to_Merge\Library\ScriptAssemblies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Menu_to_Merge\Assets\Scenes\script\MainMenu.cs" />
+    <Compile Include="Assets\Menu_to_Merge\Assets\Scenes\script\QuitApplication.cs" />
+    <Compile Include="Assets\Menu_to_Merge\Assets\Scenes\script\SetAudioLevels.cs" />
+    <Compile Include="Assets\Menu_to_Merge\Library\ScriptAssemblies\Assembly-CSharp.dll" />
     <Compile Include="Assets\Scenes\script\MainMenu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Menu_to_Merge\Library\LastSceneManagerSetup.txt" />
+    <None Include="Assets\Menu_to_Merge\Library\LibraryFormatVersion.txt" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEditor.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.Analytics.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.HoloLens.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.Networking.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.TestRunner.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.UI.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.VR.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\nunit.framework.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\version.txt" />
+    <None Include="Assets\Menu_to_Merge\ProjectSettings\ProjectVersion.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
