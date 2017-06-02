@@ -119,6 +119,25 @@
     <Compile Include="Assets\Menu_to_Merge\Assets\Scenes\script\SetAudioLevels.cs" />
     <Compile Include="Assets\Menu_to_Merge\Library\ScriptAssemblies\Assembly-CSharp.dll" />
     <Compile Include="Assets\Scenes\script\MainMenu.cs" />
+    <Compile Include="Assets\Scenes\script\QuitApplication.cs" />
+    <Compile Include="Assets\Scenes\script\SetAudioLevels.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Menu_to_Merge\Library\LastSceneManagerSetup.txt" />
+    <None Include="Assets\Menu_to_Merge\Library\LibraryFormatVersion.txt" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEditor.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.Analytics.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.HoloLens.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.Networking.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.TestRunner.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.UI.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.VR.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\UnityEngine.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\nunit.framework.xml" />
+    <None Include="Assets\Menu_to_Merge\Library\UnityAssemblies\version.txt" />
+    <None Include="Assets\Menu_to_Merge\ProjectSettings\ProjectVersion.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Menu_to_Merge\Library\LastSceneManagerSetup.txt" />
